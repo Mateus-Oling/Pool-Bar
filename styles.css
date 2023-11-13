@@ -308,41 +308,121 @@ textarea#wait-line {
 }
 
 
-@media only screen and (min-width: 1200px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1920px) and (min-resolution: 1080px)  {
+  
  
-  .wrapper {
-    margin-left: 10%; /* Ajuste a margem lateral conforme necessário */
-  }
+  .table h1 {
+    width: 200px;
+    font-size: 136px;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: auto;
+}
 
-  .table {
-    width: 20rem; /* Ajuste a largura da mesa conforme necessário */
-    height: 25rem; 
-  }
+.wrapper {
+  font-size: 6px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-  textarea {
-    width: 30rem; /* Ajuste a largura do textarea conforme necessário */
-  }
+.table {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width:  400px;
+    font-size: 36px;
+    height: 700px;
+}
 
-  textarea#wait-line {
-    width: 40rem; /* Ajuste a largura do textarea da fila de espera conforme necessário */
-  }
- 
-  .table h1,
-  textarea,
-  .wait-line h1 {
-    font-size: 4rem; /* Ajuste o tamanho da fonte conforme necessário */
-  }
+form {
+    margin-top: 15px;
+}
 
-  .clock span {
-    font-size: 12rem; /* Ajuste o tamanho da fonte do relógio conforme necessário */
-  }
+#table-1,
+#table-2,
+#table-3,
+#table-4,
+#table-5 {
+    margin: 0;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
 
-  .container-clock {
-    margin-top: 20%; /* Ajuste a margem superior do relógio conforme necessário */
-  }
+textarea {
+  font-size: 36px;
+    width: 360px;
+    height: 180px;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+}
 
-  .clock {
-    height: 15rem; /* Ajuste a altura do relógio conforme necessário */
-  }
+.wait-line {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 640px;
+}
+
+.wait-line h1 {
+    padding: 20px;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+textarea#wait-line {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 500;
+    width: 560px;
+    height: 150px;
+}
+
+.container-clock {
+    width: auto;
+    height: auto;
+    margin-left: 0;
+    font-size: 36px;
+    margin-top: 320px;
+    display: none; /* Adiciona esta linha para ocultar o relógio */
+}
+
+.clock {
+    width: 400px;
+    height: 180px;
+}
+
+.clock span {
+  font-size: 36px;
+    height: 24px;
+    width: 160px;
+}
+
 
 }

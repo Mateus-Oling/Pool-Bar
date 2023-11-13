@@ -45,7 +45,7 @@ body::before {
   font-weight: 500;
   font-size: 3.1875rem;
   margin-left: 2.2rem;
-  margin-top: 0.5125rem;
+  margin-top: 1.3rem;
 }
 
 form {
@@ -59,7 +59,7 @@ form {
 #table-3,
 #table-4,
 #table-5 {
-  margin-right: 2.1875rem;
+  margin-right: 1.1875rem;
   border-radius: 1.25rem;
   text-align: center;
   border: 0.125rem solid rgba(147, 40, 81, 0.644);
@@ -335,7 +335,7 @@ textarea#wait-line {
  
   .table h1 {
     width: 250px;
-    font-size: 62px;
+    font-size: 66px;
     margin: 0 auto;
     margin-top: 20px;
     height: auto;
@@ -348,21 +348,24 @@ textarea#wait-line {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 5px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-top: 1.3rem;
 }
 
 .table {
     margin-right: 0;
     margin-bottom: 20px;
-    width: 350px !important;
-    font-size: 36px;
-    height: 685px;
+    width: 370px !important;
+    
+    height: 725px;
     margin-left: 5px !important;
+   
 }
 
 form {
     margin-top: 15px;
-    font-size: 52px;
+    font-size: 58px;
   
 }
 
@@ -371,13 +374,14 @@ form {
 #table-3,
 #table-4,
 #table-5 {
-  margin-left: 5px !important;
+  margin-left: 0px !important;
+    margin-right: 0px !important;
   
 }
 
 textarea {
-  font-size: 54px;
-    width: 330px;
+  font-size: 60px;
+    width: 365px;
     height: 80px !important;
     margin: 0;
     margin-top: 5px;
@@ -387,7 +391,7 @@ textarea {
 
 .wait-line {
     margin: 0;
-    margin-left: 60px;
+    margin-left: 20px;
     display: flex;
     flex-direction: row;
     margin-top: 40px;
@@ -395,39 +399,45 @@ textarea {
 
 .wait-line h1 {
     padding: 20px;
-    font-size: 46px;
+    font-size: 58px;
     margin-bottom: 20px;
 }
 
 textarea#wait-line {
     margin: 0;
     margin-bottom: 20px;
-    margin-left: 30px;
+    
     padding: 0;
-    font-size: 36px;
+    font-size: 56px;
     font-weight: 500;
-   height: 100px !important;
-   width: 600px;
+   height: 400px !important;
+   width: 820px;
 }
 
+
 .container-clock {
-    width: auto;
-    height: auto;
+    width: 400px;
+    height: 150px;
     margin-left: 0;
     font-size: 36px;
-    margin-top: 320px;
-    display: none; /* Adiciona esta linha para ocultar o relógio */
+    position: absolute;
+    left: 1650px !important;
+  border: none;
+  background: none;
+  margin-top: 170px;
 }
 
 .clock {
-    width: 400px;
-    height: 180px;
+ 
+  height: 1.875rem;
+  width: 12.5rem;
 }
 
 .clock span {
-  font-size: 36px;
-    height: 24px;
-    width: 160px;
+  font-size: 135px;
+  font-weight: 800;
+  padding: 10px;
+
 }
 
 

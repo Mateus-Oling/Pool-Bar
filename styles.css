@@ -306,3 +306,43 @@ textarea#wait-line {
     width: 12.5rem;
   }
 }
+
+
+@media only screen and (min-width: 1200px) {
+ 
+  .wrapper {
+    margin-left: 10%; /* Ajuste a margem lateral conforme necessário */
+  }
+
+  .table {
+    width: 20rem; /* Ajuste a largura da mesa conforme necessário */
+    height: 25rem; 
+  }
+
+  textarea {
+    width: 30rem; /* Ajuste a largura do textarea conforme necessário */
+  }
+
+  textarea#wait-line {
+    width: 40rem; /* Ajuste a largura do textarea da fila de espera conforme necessário */
+  }
+ 
+  .table h1,
+  textarea,
+  .wait-line h1 {
+    font-size: 4rem; /* Ajuste o tamanho da fonte conforme necessário */
+  }
+
+  .clock span {
+    font-size: 12rem; /* Ajuste o tamanho da fonte do relógio conforme necessário */
+  }
+
+  .container-clock {
+    margin-top: 20%; /* Ajuste a margem superior do relógio conforme necessário */
+  }
+
+  .clock {
+    height: 15rem; /* Ajuste a altura do relógio conforme necessário */
+  }
+
+}

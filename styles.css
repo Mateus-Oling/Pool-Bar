@@ -33,7 +33,7 @@ body::before {
   margin-top: 1.5625rem;
   margin-left: 3.125rem;
   font-weight: 900;
-  font-size: 3.1875rem;
+  font-size: 64px;
   text-align: center;
 }
 
@@ -42,16 +42,19 @@ body::before {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  font-weight: 500;
-  font-size: 3.1875rem;
+ 
   margin-left: 2.2rem;
   margin-top: 1.3rem;
 }
 
 form {
   color: black;
-  margin-top: 1.875rem;
+  
   font-weight: 700;
+  font-size: 50px;
+  width: 350px;
+  
+ 
 }
 
 #table-1,
@@ -68,22 +71,23 @@ form {
     rgba(80, 79, 79, 0.282) 0%,
     rgba(100, 99, 99, 0.887) 100%
   );
+  height: 775px;
 }
 
 textarea {
   border: none;
   outline: none;
-  font-weight: 600;
-  font-size: 3.1875rem;
-  font-weight: 1000;
+  
   color: white;
-  max-height: 4.375rem;
-  width: 3.125rem;
+  height: auto;
   background-color: transparent;
   transition: box-shadow 0.4s;
   vertical-align: middle;
   resize: none;
   width: 21.25rem;
+  height: 110px !important;
+  font-weight: 900;
+  font-size: 59px;
   margin-bottom: 1.25rem;
   margin-top: 0.625rem;
   text-align: center;
@@ -145,6 +149,7 @@ textarea#wait-line {
   background: linear-gradient(45deg, #09001f, #30197d);
   color: black;
   position: relative;
+  
 }
 
 .container-clock {
@@ -158,6 +163,7 @@ textarea#wait-line {
   margin-left: 35rem;
   border-radius: 1.25rem;
   border: 0.125rem solid rgba(147, 40, 81, 0.644);
+  
 }
 
 .clock {
@@ -168,7 +174,6 @@ textarea#wait-line {
   align-items: center;
   justify-content: center;
   background: linear-gradient(
-    90deg,
     rgba(3, 3, 3, 0.0859) 0%,
     rgba(71, 69, 69, 0.887) 100%
   );
@@ -176,7 +181,7 @@ textarea#wait-line {
 
 .clock span {
   font-size: 8.75rem;
-  font-weight: 3.125rem;
+  font-weight: 800 !important;
   width: 18.75rem;
   height: auto;
   display: inline-block;
@@ -190,6 +195,7 @@ textarea#wait-line {
   bottom: 0.75rem;
   left: 50%;
   transform: translateX(-50%);
+  
 }
 
 #hrs::after {

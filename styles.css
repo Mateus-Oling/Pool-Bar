@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  
 }
 
 body::before {
@@ -136,6 +137,7 @@ textarea#wait-line {
   vertical-align: middle;
   resize: none;
   overflow-y: hidden;
+  
 }
 
 .hero {
@@ -227,6 +229,7 @@ textarea#wait-line {
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
+    
   }
 
   .table {
@@ -284,6 +287,7 @@ textarea#wait-line {
     font-weight: 500;
     width: 22.5rem;
     height: 50px;
+    
   }
 
   .container-clock {
@@ -325,38 +329,41 @@ textarea#wait-line {
 
 
 
-@media only screen and (min-width: 1920px) and (min-resolution: 1080px)  {
+@media only screen and (min-width: 1920px) and (min-height: 1080px)  {
+  
   
  
   .table h1 {
-    width: 200px;
-    font-size: 136px;
+    width: 250px;
+    font-size: 62px;
     margin: 0 auto;
     margin-top: 20px;
     height: auto;
 }
 
 .wrapper {
-  font-size: 6px;
-    margin: 0;
+    margin: 0 0;
     padding: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 5px !important;
 }
 
 .table {
     margin-right: 0;
     margin-bottom: 20px;
-    width:  400px;
+    width: 350px !important;
     font-size: 36px;
-    height: 700px;
+    height: 685px;
+    margin-left: 5px !important;
 }
 
 form {
     margin-top: 15px;
+    font-size: 52px;
+  
 }
 
 #table-1,
@@ -364,17 +371,14 @@ form {
 #table-3,
 #table-4,
 #table-5 {
-    margin: 0;
-    margin-top: 15px;
-    margin-right: 15px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+  margin-left: 5px !important;
+  
 }
 
 textarea {
-  font-size: 36px;
-    width: 360px;
-    height: 180px;
+  font-size: 54px;
+    width: 330px;
+    height: 80px !important;
     margin: 0;
     margin-top: 5px;
     margin-bottom: 10px;
@@ -383,25 +387,27 @@ textarea {
 
 .wait-line {
     margin: 0;
+    margin-left: 60px;
     display: flex;
-    flex-direction: column;
-    margin-top: 640px;
+    flex-direction: row;
+    margin-top: 40px;
 }
 
 .wait-line h1 {
     padding: 20px;
-    font-size: 36px;
+    font-size: 46px;
     margin-bottom: 20px;
 }
 
 textarea#wait-line {
     margin: 0;
     margin-bottom: 20px;
+    margin-left: 30px;
     padding: 0;
     font-size: 36px;
     font-weight: 500;
-    width: 560px;
-    height: 150px;
+   height: 100px !important;
+   width: 600px;
 }
 
 .container-clock {

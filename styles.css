@@ -85,7 +85,7 @@ textarea {
   vertical-align: middle;
   resize: none;
   width: 21.25rem;
-  height: 110px !important;
+  height: 90px !important;
   font-weight: 900;
   font-size: 59px;
   margin-bottom: 1.25rem;
@@ -113,8 +113,8 @@ textarea:hover {
   justify-content: flex-start;
   align-items: center;
   text-align: center;
-  margin-left: 1.7rem;
-  margin-top: -1.25rem;
+  margin-left: .9rem;
+  margin-top: 70px;
   font-weight: 900;
 }
 
@@ -124,17 +124,18 @@ textarea:hover {
   border-radius: 1.25rem;
   padding: 1.25rem;
   font-weight: 3.1875rem;
+  font-size: 50px;
 }
 
 textarea#wait-line {
   width: 54rem;
-  max-height: 9.375rem;
+  height: 160px !important;
   padding: 1.25rem;
-  margin-left: 1.5625rem;
+  
   border: none;
   outline: none;
   font-weight: 600;
-  font-size: 2.875rem;
+  font-size: 55px;
   color: white;
   background-color: transparent;
   transition: box-shadow 0.4s;
@@ -142,6 +143,7 @@ textarea#wait-line {
   resize: none;
   overflow-y: hidden;
   
+ 
 }
 
 .hero {
@@ -159,8 +161,8 @@ textarea#wait-line {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-top: 5.95rem;
-  margin-left: 35rem;
+  margin-top: 9.95rem;
+  margin-left: 37rem;
   border-radius: 1.25rem;
   border: 0.125rem solid rgba(147, 40, 81, 0.644);
   

@@ -31,29 +31,25 @@ document.addEventListener("DOMContentLoaded", (event) => {
         value: textarea.value,
         timestamp: firebase.database.ServerValue.TIMESTAMP,
       };
-
+  
       database.ref(textarea.id).set(data);
     });
   }
-
+  
   function carregarDadosSalvos() {
     textAreas.forEach((textarea) => {
-      database
-        .ref(textarea.id)
-        .orderByChild("timestamp")
-        .limitToLast(1)
-        .once("value")
-        .then((snapshot) => {
-          const data = snapshot.val();
-          if (data) {
-            textarea.value = data.value;
-            textarea.style.height = textarea.scrollHeight + "px";
-          }
-        });
+      database.ref(textarea.id).on("value", (snapshot) => {
+        const data = snapshot.val();
+        if (data) {
+          textarea.value = data.value;
+          textarea.style.height = textarea.scrollHeight + "px";
+        }
+      });
     });
   }
-
+  
   window.onload = carregarDadosSalvos;
+  
 
   function atualizarRelogio() {
     let currentTime = new Date();

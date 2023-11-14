@@ -57,7 +57,7 @@ form {
 #table-3,
 #table-4,
 #table-5 {
-  margin-right: 1.5rem;
+  margin-right: 1.7rem;
   border-radius: 1.25rem;
   text-align: center;
   border: 13px solid rgba(147, 40, 81, 0.644);
@@ -106,7 +106,7 @@ textarea:hover {
   align-items: center;
   text-align: center;
   margin-left: 3.7rem;
-  margin-top: 35px;
+  margin-top: 55px;
   font-weight: 900;
 }
 
@@ -117,12 +117,12 @@ textarea:hover {
   border-radius: 1.25rem;
   padding: 0.5rem;
   font-weight: 3.1875rem;
-  font-size: 55px;
+  font-size: 60px;
 }
 
 textarea#wait-line {
   width: 25rem;
-  height: 200px !important;
+  height: 240px !important;
   padding: 1.25rem;
   border: none;
   outline: none;
@@ -134,11 +134,13 @@ textarea#wait-line {
   vertical-align: middle;
   resize: none;
   overflow-y: hidden;
+  margin-left: -15px;
 }
 
 textarea#wait-line-two {
+  margin-left: -25px;
   width: 25rem;
-  height: 200px !important;
+  height: 240px !important;
   padding: 1.25rem;
   border: none;
   outline: none;
@@ -168,7 +170,7 @@ textarea#wait-line-two {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-top: 8.35rem;
+  margin-top: 10.35rem;
   margin-left: 37.4rem;
   border-radius: 1.25rem;
 }
@@ -303,8 +305,8 @@ textarea#wait-line-two {
     font-weight: 500;
     width: 20.5rem;
     max-height: 3.25rem;
-  
   }
+  
 
   .container-clock {
     width: auto;

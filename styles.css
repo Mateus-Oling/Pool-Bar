@@ -30,7 +30,7 @@ body::before {
   border-radius: 1rem;
   height: auto;
   width: 15rem;
-  margin-top: 1.5625rem;
+  margin-top: 1rem;
   margin-left: 3.125rem;
   font-weight: 900;
   font-size: 64px;
@@ -42,19 +42,15 @@ body::before {
   justify-content: center;
   align-items: center;
   flex-direction: row;
- 
   margin-left: 2.2rem;
-  margin-top: 1.3rem;
+  margin-top: 1rem;
 }
 
 form {
   color: black;
-  
   font-weight: 700;
-  font-size: 50px;
-  width: 350px;
-  
- 
+  font-size: 48px;
+  width: 330px;
 }
 
 #table-1,
@@ -65,19 +61,18 @@ form {
   margin-right: 1.1875rem;
   border-radius: 1.25rem;
   text-align: center;
-  border: 0.125rem solid rgba(147, 40, 81, 0.644);
+  border: 8px solid rgba(147, 40, 81, 0.644);
   background: linear-gradient(
     90deg,
     rgba(80, 79, 79, 0.282) 0%,
     rgba(100, 99, 99, 0.887) 100%
   );
-  height: 775px;
+  height: 750px;
 }
 
 textarea {
   border: none;
   outline: none;
-  
   color: white;
   height: auto;
   background-color: transparent;
@@ -87,7 +82,7 @@ textarea {
   width: 21.25rem;
   height: 90px !important;
   font-weight: 900;
-  font-size: 59px;
+  font-size: 56px;
   margin-bottom: 1.25rem;
   margin-top: 0.625rem;
   text-align: center;
@@ -113,8 +108,8 @@ textarea:hover {
   justify-content: flex-start;
   align-items: center;
   text-align: center;
-  margin-left: .9rem;
-  margin-top: 70px;
+  margin-left: 1.6rem;
+  margin-top: 20px;
   font-weight: 900;
 }
 
@@ -131,19 +126,16 @@ textarea#wait-line {
   width: 54rem;
   height: 160px !important;
   padding: 1.25rem;
-  
   border: none;
   outline: none;
   font-weight: 600;
-  font-size: 55px;
+  font-size: 52px;
   color: white;
   background-color: transparent;
   transition: box-shadow 0.4s;
   vertical-align: middle;
   resize: none;
   overflow-y: hidden;
-  
- 
 }
 
 .hero {
@@ -151,7 +143,6 @@ textarea#wait-line {
   background: linear-gradient(45deg, #09001f, #30197d);
   color: black;
   position: relative;
-  
 }
 
 .container-clock {
@@ -161,11 +152,10 @@ textarea#wait-line {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-top: 9.95rem;
+  margin-top: 6.75rem;
   margin-left: 37rem;
   border-radius: 1.25rem;
-  border: 0.125rem solid rgba(147, 40, 81, 0.644);
-  
+  border: 6px solid rgba(147, 40, 81, 0.644);
 }
 
 .clock {
@@ -183,7 +173,7 @@ textarea#wait-line {
 
 .clock span {
   font-size: 8.75rem;
-  font-weight: 800 !important;
+  font-weight: 800;
   width: 18.75rem;
   height: auto;
   display: inline-block;
@@ -200,17 +190,7 @@ textarea#wait-line {
   
 }
 
-#hrs::after {
-  content: "Horas";
-}
 
-#min::after {
-  content: "Minutos";
-}
-
-#sec::after {
-  content: "Segundos";
-}
 
 
 
@@ -337,116 +317,3 @@ textarea#wait-line {
 
 
 
-@media only screen and (min-width: 1920px) and (min-height: 1080px)  {
-  
-  
- 
-  .table h1 {
-    width: 250px;
-    font-size: 66px;
-    margin: 0 auto;
-    margin-top: 20px;
-    height: auto;
-}
-
-.wrapper {
-    margin: 0 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-left: 0px !important;
-    margin-right: 0px !important;
-    margin-top: 1.3rem;
-}
-
-.table {
-    margin-right: 0;
-    margin-bottom: 20px;
-    width: 370px !important;
-    
-    height: 725px;
-    margin-left: 5px !important;
-   
-}
-
-form {
-    margin-top: 15px;
-    font-size: 58px;
-  
-}
-
-#table-1,
-#table-2,
-#table-3,
-#table-4,
-#table-5 {
-  margin-left: 0px !important;
-    margin-right: 0px !important;
-  
-}
-
-textarea {
-  font-size: 60px;
-    width: 365px;
-    height: 80px !important;
-    margin: 0;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    
-}
-
-.wait-line {
-    margin: 0;
-    margin-left: 20px;
-    display: flex;
-    flex-direction: row;
-    margin-top: 40px;
-}
-
-.wait-line h1 {
-    padding: 20px;
-    font-size: 58px;
-    margin-bottom: 20px;
-}
-
-textarea#wait-line {
-    margin: 0;
-    margin-bottom: 20px;
-    
-    padding: 0;
-    font-size: 56px;
-    font-weight: 500;
-   height: 400px !important;
-   width: 820px;
-}
-
-
-.container-clock {
-    width: 400px;
-    height: 150px;
-    margin-left: 0;
-    font-size: 36px;
-    position: absolute;
-    left: 1650px !important;
-  border: none;
-  background: none;
-  margin-top: 170px;
-}
-
-.clock {
- 
-  height: 1.875rem;
-  width: 12.5rem;
-}
-
-.clock span {
-  font-size: 135px;
-  font-weight: 800;
-  padding: 10px;
-
-}
-
-
-}

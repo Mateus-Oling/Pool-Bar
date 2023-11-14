@@ -44,7 +44,7 @@ body::before {
   margin-left: 2.2rem;
   margin-top: 1rem;
 }
-
+/*  */
 form {
   color: black;
   font-weight: 700;
@@ -60,7 +60,7 @@ form {
   margin-right: 1.7rem;
   border-radius: 1.25rem;
   text-align: center;
-  border: 13px solid rgba(147, 40, 81, 0.644);
+  border: 16px solid rgba(147, 40, 81, 0.861);
   background: linear-gradient(
     90deg,
     rgba(80, 79, 79, 0.282) 0%,
@@ -204,14 +204,7 @@ textarea#wait-line-two {
   bottom: 0.75rem;
   left: 50%;
   transform: translateX(-50%);
-  
 }
-
-
-
-
-
-
 
 
 
@@ -295,18 +288,38 @@ textarea#wait-line-two {
   }
 
   textarea#wait-line {
+    width: 11rem;
+    min-height: 110px !important;
+    padding: 1.25rem;
     margin: 0;
     margin-bottom: 7px;
     position: relative;
     top: -180px;
-    right: -5px;
-    padding: 0;
-    font-size: 1.0625rem;
+    color: white;
+    background-color: transparent;
+    transition: box-shadow 0.4s;
+    vertical-align: middle;
+    resize: none;
+    font-size: 20px;
     font-weight: 500;
-    width: 20.5rem;
-    max-height: 3.25rem;
   }
   
+  textarea#wait-line-two {
+    width: 11rem;
+    min-height: 110px !important;
+    padding: 1.25rem;
+    margin: 0;
+    margin-bottom: 7px;
+    position: relative;
+   top: -180px;
+    color: white;
+    background-color: transparent;
+    transition: box-shadow 0.4s;
+    vertical-align: middle;
+    resize: none;
+    font-size: 20px;
+    font-weight: 500;
+  }
 
   .container-clock {
     width: auto;

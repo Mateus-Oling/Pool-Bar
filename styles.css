@@ -42,7 +42,7 @@ body::before {
   align-items: center;
   flex-direction: row;
   margin-left: 0.5rem;
-  margin-right: -2rem;
+  
   margin-top: 1rem;
 }
 /*  */
@@ -61,7 +61,7 @@ form {
   margin-right: 1.6rem;
   border-radius: 1.25rem;
   text-align: center;
-  border: 13px solid rgba(147, 40, 81, 0.861);
+  border: 12px solid rgba(147, 40, 81, 0.861);
   background: linear-gradient(
     90deg,
     rgba(80, 79, 79, 0.282) 0%,
@@ -171,7 +171,7 @@ textarea#wait-line-two {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-top: 10.35rem;
+  margin-top: 11rem;
   margin-left: 37.4rem;
   border-radius: 1.25rem;
 }

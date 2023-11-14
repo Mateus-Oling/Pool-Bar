@@ -31,11 +31,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
         value: textarea.value,
         timestamp: firebase.database.ServerValue.TIMESTAMP,
       };
-  
+
       database.ref(textarea.id).set(data);
     });
   }
-  
+
   function carregarDadosSalvos() {
     textAreas.forEach((textarea) => {
       database.ref(textarea.id).on("value", (snapshot) => {
@@ -47,9 +47,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
       });
     });
   }
-  
+
   window.onload = carregarDadosSalvos;
-  
 
   function atualizarRelogio() {
     let currentTime = new Date();

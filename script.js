@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   };
 
   const app = firebase.initializeApp(firebaseConfig);
-  const database = app.database();
+  const dataBase = app.database();
 
   function salvarDados() {
     textAreas.forEach((textarea) => {
@@ -32,13 +32,13 @@ document.addEventListener("DOMContentLoaded", (event) => {
         timestamp: firebase.database.ServerValue.TIMESTAMP,
       };
 
-      database.ref(textarea.id).set(data);
+      dataBase.ref(textarea.id).set(data);
     });
   }
 
   function carregarDadosSalvos() {
     textAreas.forEach((textarea) => {
-      database.ref(textarea.id).on("value", (snapshot) => {
+      dataBase.ref(textarea.id).on("value", (snapshot) => {
         const data = snapshot.val();
         if (data) {
           textarea.value = data.value;
